@@ -1,0 +1,104 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: AlbertusNova;
+    src: url(../fonts/AlbertusNova.woff2) format("woff2"), url(../fonts/AlbertusNova.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: AlbertusNova;
+    src: url(../fonts/AlbertusNova-Bold.woff2) format("woff2"), url(../fonts/AlbertusNova-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: AlbertusNova;
+    src: url(../fonts/AlbertusNovaThin.woff2) format("woff2"), url(../fonts/AlbertusNovaThin.woff) format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: AlbertusNova;
+}
+.header {
+    font-family: Source Code Pro, cursive;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    color: brown;
+}
+h1{
+    text-shadow: 5px 5px 5px rgb(202, 107, 18);
+}
+.header li{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color:rgb(2, 14, 2);
+}
+.none{
+    text-decoration: line-through;
+}
+.header p{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color:rgb(15, 170, 15);
+    text-align:center;
+    text-decoration: underline;
+}
+.main {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: cornflowerblue;
+}
+.paragraf {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(159, 100, 237);
+    text-align: right;
+}
+h2{
+    text-shadow: 5px 2px 5px rgb(18, 150, 202);
+    text-align: center;
+}
+#point1 p{
+    text-indent: 30px;
+}
+span{
+    font-family: Source Code Pro;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: darkorange;
+}
+.list {
+    font-family: Source Code Pro;
+    font-weight: 100;
+    text-align:justify;
+    color: rgb(64, 8, 88);
+}
+#point2 {
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: darkslategrey;
+}
+h4{
+    text-shadow: 3px 2px 2px rgb(202, 18, 171);
+    text-align: center;
+    color: darkred;
+    font-size: 12px;
+}
+.footer {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
